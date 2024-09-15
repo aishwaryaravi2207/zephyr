@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat-Regular", Helvetica;
+}
+
+.wrapper {
+	width: auto;
+	height: 100vh;
+	background-color: white;
+
+	.header {
+		width: auto;
+		height: 100px;
+
+		.logo {
+			height: 100px;
+			width: 100px;
+
+			.logo-image {
+				height: 100px;
+				width: 100px;
+			}
+		}
+	}
+
+	.title {
+		margin-top: 150px;
+		margin-bottom: 150px;
+		font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		text-align: left;
+
+		h1 {
+			font-size: 75px;
+			color: #009999;
+			margin-top: 200px;
+			margin-bottom: 5px;
+			margin-left: 20px;
+		}
+
+		h2 {
+			font-size: 50px;
+			color: #ffaa00;
+			margin-top: 5px;
+			margin-bottom: 200px;
+			margin-left: 20px;
+		}
+	}
+
+
+	.navigations {
+		width: auto;
+		height: 150px;
+		margin-top: 250px;
+		margin-left: 200px;
+		margin-right: 200px;
+		justify-content: center;
+
+		.nav-options {
+			justify-content: center;
+			display: flex;
+			padding: 20px;
+
+			.about_me {
+				cursor: pointer;
+				width: 250px;
+				height: 110px;
+				border-radius: 10px;
+				border: solid;
+				background-color: #009999;
+				color: white;
+				font-weight: bolder;
+				text-align: center;
+				padding: 30px;
+				margin-left: 20px;
+				margin-right: 20px;
+
+				.about-button {
+					margin-top: 15px;
+					margin-bottom: 15px;
+					margin-right: 15px;
+					margin-left: 15px;
+					text-align: center;
+				}
+			}
+
+			.order {
+				cursor: pointer;
+				width: 250px;
+				height: 110px;
+				border-radius: 10px;
+				border: solid;
+				background-color: #ffaa00;
+				color: white;
+				font-weight: bolder;
+				text-align: center;
+				padding: 30px;
+				margin-left: 20px;
+				margin-right: 20px;
+
+				.order-button {
+					margin-top: 15px;
+					margin-bottom: 15px;
+					margin-right: 15px;
+					margin-left: 15px;
+					text-align: center;
+				}
+			}
+		}
+
+	}
+
+}
